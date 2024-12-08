@@ -9,7 +9,7 @@ const LatestCollection = () => {
 
     const { products } = useContext(ShopContext);
 
-    console.log(products);
+    // console.log(products);
    
     const [latestProducts,setLatestProducts] = useState([])
 
